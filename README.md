@@ -1,6 +1,8 @@
 # tzbb
 >一个快速搭建ReactNative移动应用脚手架
-
+## 依赖包
+tzbbLibs/workbench 脚手架基础底座包
+地址：https://github.com/dreamsleep11/tzbbLibs
 ## 目录介绍
 1. android
 android基础项目目录
