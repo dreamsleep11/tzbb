@@ -12,11 +12,13 @@ js基础代码目录
 路由配置目录
 5. js/src
 业务代码目录，app开发主要代码写在这里
-6. js/src/pages 
+6. js/res 
+静态资源文件包
+7. js/src/pages 
 页面代码包
-7. js/src/Themes
+8. js/src/Themes
 主题代码包
-8. js/src/cores
+9. js/src/cores
 核心代码包（业务开发基本不会更改）
-9. js/src/main
+10. js/src/main
 入口包
