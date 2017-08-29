@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - ImageCropPicker (0.12.3)
+  - QBImagePickerController (3.4.0)
   - React (0.46.1):
     - React/Core (= 0.46.1)
   - React/ART (0.46.1):
@@ -63,6 +64,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - ImageCropPicker (from `../`)
+  - QBImagePickerController (from `../node_modules/react-native-image-crop-picker/ios/QBImagePicker`)
   - React/ART (from `../node_modules/react-native`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
@@ -88,6 +90,8 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   ImageCropPicker:
     :path: ../
+  QBImagePickerController:
+    :path: ../node_modules/react-native-image-crop-picker/ios/QBImagePicker
   React:
     :path: ../node_modules/react-native
   RNVectorIcons:
@@ -99,12 +103,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ImageCropPicker: b59676ce9633f0e86bfd9ca49ad417fc32e91339
+  ImageCropPicker: 3e5a85454d76feae1b4ed7a93e18f5e6f90615c4
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
   React: 0c6f45ca8c39fe48ed4e3a5583861a8e1bc0959e
   RNVectorIcons: a58392f365a38ffd3a070bf7449c0145bd0814e1
   workbench: 2731e1862f4347a19842892469f802fe69205730
   Yoga: 9148a870ff3adaba107edb8ef48ab189c9d9a3d1
 
-PODFILE CHECKSUM: 24c69846cfe5d807c46d71b72a4d1186afdb6c88
+PODFILE CHECKSUM: 7b89d2461c3d80b10ee2b8f4e32f62d0910023eb
 
 COCOAPODS: 1.2.1

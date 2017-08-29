@@ -35,4 +35,5 @@ target 'tzbb' do
  pod "workbench",:path=>"../node_modules/tzbb-mc-workbench"
  pod  "RNVectorIcons", :path =>  "../node_modules/react-native-vector-icons"
  pod 'ImageCropPicker',:path=>'../'
+ pod "QBImagePickerController", :path =>  "../node_modules/react-native-image-crop-picker/ios/QBImagePicker"
 end

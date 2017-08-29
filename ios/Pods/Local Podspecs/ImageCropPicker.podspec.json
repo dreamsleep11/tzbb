@@ -16,8 +16,7 @@
   "source_files": [
     "node_modules/react-native-image-crop-picker/ios/*.{h,m}",
     "node_modules/react-native-image-crop-picker/ios/UIImage-Resize/*.{h,m}",
-    "node_modules/react-native-image-crop-picker/ios/RSKImageCropper/*.{h,m}",
-    "node_modules/react-native-image-crop-picker/ios/QBImagePicker/*.{h,m}"
+    "node_modules/react-native-image-crop-picker/ios/RSKImageCropper/*.{h,m}"
   ],
   "vendored_frameworks": "node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK/*.framework"
 }

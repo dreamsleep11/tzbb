@@ -13,8 +13,6 @@
 		D267BCE21F1761BB00D61481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D267BCE01F1761BB00D61481 /* Main.storyboard */; };
 		D267BCE41F1761BB00D61481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D267BCE31F1761BB00D61481 /* Assets.xcassets */; };
 		D267BCE71F1761BB00D61481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D267BCE51F1761BB00D61481 /* LaunchScreen.storyboard */; };
-		D297D2811F185FED0011072E /* index.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = D297D27F1F185FED0011072E /* index.ios.jsbundle */; };
-		D297D2821F185FED0011072E /* index.ios.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = D297D2801F185FED0011072E /* index.ios.jsbundle.meta */; };
 		D2D811981F53A4370032F1E3 /* ImageCropPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D2D811971F53A4370032F1E3 /* ImageCropPicker.podspec */; };
 		D2E713231F3C12AC003C5D32 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2E713181F3C12AC003C5D32 /* Entypo.ttf */; };
 		D2E713241F3C12AC003C5D32 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2E713191F3C12AC003C5D32 /* EvilIcons.ttf */; };
@@ -40,8 +38,6 @@
 		D267BCE31F1761BB00D61481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D267BCE61F1761BB00D61481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D267BCE81F1761BB00D61481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D297D27F1F185FED0011072E /* index.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.jsbundle; sourceTree = "<group>"; };
-		D297D2801F185FED0011072E /* index.ios.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.ios.jsbundle.meta; sourceTree = "<group>"; };
 		D2D811971F53A4370032F1E3 /* ImageCropPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ImageCropPicker.podspec; path = ../ImageCropPicker.podspec; sourceTree = "<group>"; };
 		D2E713181F3C12AC003C5D32 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		D2E713191F3C12AC003C5D32 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -79,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				D2D811971F53A4370032F1E3 /* ImageCropPicker.podspec */,
-				D297D27E1F185FED0011072E /* bundle */,
 				D267BCD61F1761BB00D61481 /* tzbb */,
 				D267BCD51F1761BB00D61481 /* Products */,
 				F4CC948CF0A225F01BD6D4A4 /* Pods */,
@@ -116,15 +111,6 @@
 				D267BCD81F1761BB00D61481 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D297D27E1F185FED0011072E /* bundle */ = {
-			isa = PBXGroup;
-			children = (
-				D297D27F1F185FED0011072E /* index.ios.jsbundle */,
-				D297D2801F185FED0011072E /* index.ios.jsbundle.meta */,
-			);
-			path = bundle;
 			sourceTree = "<group>";
 		};
 		D2E713161F3C12AC003C5D32 /* Resources */ = {
@@ -222,7 +208,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D297D2811F185FED0011072E /* index.ios.jsbundle in Resources */,
 				D2E713231F3C12AC003C5D32 /* Entypo.ttf in Resources */,
 				D2E7132C1F3C12AC003C5D32 /* SimpleLineIcons.ttf in Resources */,
 				D267BCE71F1761BB00D61481 /* LaunchScreen.storyboard in Resources */,
@@ -237,7 +222,6 @@
 				D2E7132B1F3C12AC003C5D32 /* Octicons.ttf in Resources */,
 				D2E713271F3C12AC003C5D32 /* iconfont.ttf in Resources */,
 				D2E713291F3C12AC003C5D32 /* MaterialCommunityIcons.ttf in Resources */,
-				D297D2821F185FED0011072E /* index.ios.jsbundle.meta in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>QBImagePickerController-QBImagePicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>QBImagePickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RNVectorIcons.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +52,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>345392FC906AF547A07C9A81A9527A45</key>
+		<key>3A3DB2486B07013161B5292E3947E7CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>55E5E2D7F42235706EE819933247C0D7</key>
+		<key>3B0A20907FC539E9005B5D941A15F104</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68AEC1941C9C4B6D3F8C8F0238099012</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>798D49C2ED675007779099EC5D279554</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>949D39B7044ACA26AA74A7BC85F3098C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,22 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B2B33D44266E23B96D10442C5B0A7989</key>
+		<key>E97EB2E5C3C52089CCC076A7DBFA49DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB229C7970F12A02D7D8D88360DF471A</key>
+		<key>F12299F5DC94CE5178019BA1428F7AAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F4CD24E158289DA05AC2855F96C9DF05</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBD34A5A03836DD83CA02CA92A9BC921</key>
 		<dict>
 			<key>primary</key>
 			<true/>

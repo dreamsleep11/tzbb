@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '345392FC906AF547A07C9A81A9527A45'
+               BlueprintIdentifier = 'E97EB2E5C3C52089CCC076A7DBFA49DD'
                BlueprintName = 'workbench'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libworkbench.a'>
