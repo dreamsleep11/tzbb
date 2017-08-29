@@ -22,13 +22,13 @@
 //    [[NSNumber alloc] initWithInteger:<#(NSInteger)#>]
     [[[Workbench alloc]init] startByReactNative:_window launchOptions:launchOptions];
     [self.window makeKeyAndVisible];
-    NSMutableDictionary *dic=[[NSMutableDictionary alloc] init];
-    [dic setObject:@"token" forKey:@"token"];
-    [NetHelper POST:@"http://dev.dhjyzf.com/gateway/initController/initToken.do" params:dic uploadFiles:nil progress:nil success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
-        NSLog(@"%@",[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {
-        
-    }];
+//    NSMutableDictionary *dic=[[NSMutableDictionary alloc] init];
+//    [dic setObject:@"token" forKey:@"token"];
+//    [NetHelper POST:@"http://dev.dhjyzf.com/gateway/initController/initToken.do" params:dic uploadFiles:nil progress:nil success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
+//        NSLog(@"%@",[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
+//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error) {
+//        
+//    }];
     return YES;
 }
 
