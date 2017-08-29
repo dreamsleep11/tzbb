@@ -8,3 +8,4 @@ android基础项目目录
 ios基础项目目录
 3. js目录
 js基础代码目录
+4. js/routes 路由配置目录
