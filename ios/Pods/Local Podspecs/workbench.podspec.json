@@ -1,0 +1,17 @@
+{
+  "name": "workbench",
+  "version": "0.1",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "homepage": "http://www.dhjyzf.com",
+  "authors": {
+    "Dreaemsleep": "lele4900@126.com"
+  },
+  "summary": "工作区包",
+  "source": {
+    "git": ""
+  },
+  "source_files": "ios/**/*.{h,m}"
+}

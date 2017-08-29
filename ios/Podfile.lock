@@ -1,0 +1,110 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ImageCropPicker (0.12.3)
+  - React (0.46.1):
+    - React/Core (= 0.46.1)
+  - React/ART (0.46.1):
+    - React/Core
+  - React/BatchedBridge (0.46.1):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.46.1):
+    - Yoga (= 0.46.1.React)
+  - React/cxxreact_legacy (0.46.1):
+    - React/jschelpers_legacy
+  - React/DevSupport (0.46.1):
+    - React/Core
+    - React/RCTWebSocket
+  - React/jschelpers_legacy (0.46.1)
+  - React/RCTActionSheet (0.46.1):
+    - React/Core
+  - React/RCTAdSupport (0.46.1):
+    - React/Core
+  - React/RCTAnimation (0.46.1):
+    - React/Core
+  - React/RCTGeolocation (0.46.1):
+    - React/Core
+  - React/RCTImage (0.46.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.46.1):
+    - React/Core
+  - React/RCTNetwork (0.46.1):
+    - React/Core
+  - React/RCTPushNotification (0.46.1):
+    - React/Core
+  - React/RCTSettings (0.46.1):
+    - React/Core
+  - React/RCTText (0.46.1):
+    - React/Core
+  - React/RCTVibration (0.46.1):
+    - React/Core
+  - React/RCTWebSocket (0.46.1):
+    - React/Core
+  - RNVectorIcons (4.3.0):
+    - React
+  - workbench (0.1)
+  - Yoga (0.46.1.React)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ImageCropPicker (from `../`)
+  - React/ART (from `../node_modules/react-native`)
+  - React/BatchedBridge (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/cxxreact_legacy (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/jschelpers_legacy (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAdSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - workbench (from `../node_modules/tzbb-mc-workbench`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  ImageCropPicker:
+    :path: ../
+  React:
+    :path: ../node_modules/react-native
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
+  workbench:
+    :path: ../node_modules/tzbb-mc-workbench
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ImageCropPicker: b59676ce9633f0e86bfd9ca49ad417fc32e91339
+  React: 0c6f45ca8c39fe48ed4e3a5583861a8e1bc0959e
+  RNVectorIcons: a58392f365a38ffd3a070bf7449c0145bd0814e1
+  workbench: 2731e1862f4347a19842892469f802fe69205730
+  Yoga: 9148a870ff3adaba107edb8ef48ab189c9d9a3d1
+
+PODFILE CHECKSUM: 24c69846cfe5d807c46d71b72a4d1186afdb6c88
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,23 @@
+{
+  "name": "ImageCropPicker",
+  "version": "0.12.3",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "homepage": "https://github.com/marcshilling/react-native-image-picker",
+  "authors": {
+    "Marc Shilling": "abc@126.com"
+  },
+  "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
+  "source": {
+    "git": ""
+  },
+  "source_files": [
+    "node_modules/react-native-image-crop-picker/ios/*.{h,m}",
+    "node_modules/react-native-image-crop-picker/ios/UIImage-Resize/*.{h,m}",
+    "node_modules/react-native-image-crop-picker/ios/RSKImageCropper/*.{h,m}",
+    "node_modules/react-native-image-crop-picker/ios/QBImagePicker/*.{h,m}"
+  ],
+  "vendored_frameworks": "node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK/*.framework"
+}

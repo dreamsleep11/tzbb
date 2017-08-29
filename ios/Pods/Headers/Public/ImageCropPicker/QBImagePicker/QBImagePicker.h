@@ -1,0 +1,1 @@
+../../../../../../node_modules/react-native-image-crop-picker/ios/ImageCropPickerSDK/QBImagePicker.framework/Headers/QBImagePicker.h
